@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    max-width: 940px;
+    margin: auto;
+    border-bottom: 1px solid #828282;
+    padding: 32px ;
+
+}
+.list{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.list__item a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    cursor: pointer;
+}
+.list__item a:hover{
+    opacity: 0.5;
+}
